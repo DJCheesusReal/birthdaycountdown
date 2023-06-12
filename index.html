@@ -8,6 +8,8 @@
             color: #FFFFFF;
             font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
 
         h1 {
@@ -31,6 +33,17 @@
 
         .matcha-brown {
             color: #594734;
+        }
+
+        /* Media queries for smaller screens */
+        @media screen and (max-width: 480px) {
+            .timer {
+                flex-direction: column;
+                font-size: 18px;
+            }
+            .time {
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
